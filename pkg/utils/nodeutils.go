@@ -32,7 +32,8 @@ import (
 )
 
 const (
-	nodeRolePrefix         = "node-role.kubernetes.io/"
+	/*#nodeRolePrefix         = "node-role.kubernetes.io/"*/
+	nodeRolePrefix         = ""
 	generatedKubelet       = "generated-kubelet"
 	generatedKubeletSuffix = "kubelet"
 	mcPayloadPrefix        = `data:text/plain,`
